@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diário de Viagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container toprow">
+      <div>
+        <h1>Diário de Viagens</h1>
+        <div class="meta">Registre memórias dos lugares que você visitou — salvas no seu navegador</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <aside>
+      <h2 class="titulo_card">Nova Memória:</h2>
+      <form id="formMemoria">
+        <div class="field">
+          <label for="titulo">Título do Local</label>
+          <input id="titulo" name="titulo" type="text" required placeholder="Ex: Praça Central" />
+        </div>
+        <div class="field">
+          <label for="dataVisita">Data da Visita</label>
+          <input id="dataVisita" name="dataVisita" type="date" required />
+        </div>
+        <div class="field">
+          <label for="fotoUrl">Link para uma foto (opcional)</label>
+          <input id="fotoUrl" name="fotoUrl" type="url" placeholder="https://exemplo.com/minha-foto.jpg" />
+        </div>
+        <div class="field">
+          <label for="descricao">Descrição</label>
+          <textarea id="descricao" name="descricao" minlength="15" required placeholder="Escreva pelo menos 15 caracteres..."></textarea>
+        </div>
+        <div class="field">
+          <label for="avaliacao">Avaliação da Experiência: <span id="valorAvaliacao" class="rating"></span></label>
+          <input id="avaliacao" name="avaliacao" type="range" min="1" max="5" value="3" />
+        </div>
+        <!-- campos hidden para coordenadas -->
+        <input id="lat" name="lat" type="hidden" />
+        <input id="lng" name="lng" type="hidden" />
+
+        <div style="display:flex;gap:.5rem;align-items:center;margin-top:.5rem">
+          <button id="btnLocalizacao" type="button" class="btn btn-ghost">Adicionar Localização</button>
+          <span id="geoStatus" class="meta">Nenhuma localização</span>
+        </div>
+
+        <div style="margin-top:1rem;display:flex;gap:.5rem">
+          <button type="submit" class="btn btn-primary">Salvar Memória</button>
+          <button type="reset" class="btn btn-ghost">Limpar Formulário</button>
+        </div>
+      </form>
+
+      <!-- Botão Limpar Memórias -->
+      <div style="margin-top:1rem;">
+        <button id="btnLimparMemorias" type="button" class="btn btn-ghost">Limpar Memórias</button>
+      </div>
+
+      <hr style="margin:1rem 0">
+      <p class="meta">Dica: se você aceitar o pedido de localização do navegador, as coordenadas serão salvas junto com a memória.</p>
+    </aside>
+
+    <section>
+      <h2>Minhas Memórias:</h2>
+      <section id="entradas" aria-live="polite" aria-label="Lista de memórias">
+        <!-- artigos serão inseridos aqui -->
+      </section>
+    </section>
+  </main>
+
+  <footer class="container">Feito por Mariana Ocireu - 2025</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -19,7 +19,7 @@ As memórias ficam **salvas no navegador** mesmo após fechar e reabrir a págin
 
 <div align="center">
   <h4>Memórias salvas:</h4>
-  <img width="500" src="https://github.com/marisouza31/DiarioViagens/blob/main/Formulario.png"><br>
+  <img width="500" src="https://github.com/marisouza31/DiarioViagens/blob/main/memorias.png"><br>
    Fonte: Mariana Ocireu
 </div>
 

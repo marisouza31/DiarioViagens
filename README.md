@@ -5,11 +5,12 @@ Adicione memórias de lugares que visitou, incluindo título, data, descrição,
 As memórias ficam **salvas no navegador** mesmo após fechar e reabrir a página.  
 
 ---
+
 ## 👩‍💻 Tecnologias Utilizadas:
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![HTML5](https://img.shields.io/badge/HTML5-7b2ff7?style=for-the-badge&logo=html5&logoColor=white&labelColor=f107a3)  
+![CSS3](https://img.shields.io/badge/CSS3-7b2ff7?style=for-the-badge&logo=css3&logoColor=white&labelColor=f107a3)  
+![JavaScript](https://img.shields.io/badge/JavaScript-7b2ff7?style=for-the-badge&logo=javascript&logoColor=white&labelColor=f107a3)  
 
 <div align="center">
   <h4>Formulário:</h4>
@@ -23,13 +24,15 @@ As memórias ficam **salvas no navegador** mesmo após fechar e reabrir a págin
    Fonte: Mariana Ocireu
 </div>
 
+---
+
 <div align="center">
   <h4>Contato</h4>
-  </div>
+</div>
 
 Obrigada por visitar o meu repositório, caso queira se conectar comigo, estou disponível através do e-mail e LinkedIn!
 
 **Mariana Ocireu:**
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marianaociz/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marianaocireu@gmail.com)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-7b2ff7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=f107a3)](https://www.linkedin.com/in/marianaociz/)  
+[![Gmail](https://img.shields.io/badge/Gmail-7b2ff7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=f107a3)](mailto:marianaocireu@gmail.com)  

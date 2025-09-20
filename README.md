@@ -13,7 +13,13 @@ As memórias ficam **salvas no navegador** mesmo após fechar e reabrir a págin
 
 <div align="center">
   <h4>Formulário:</h4>
-  <img width="500" src=""><br>
+  <img width="500" src="https://github.com/marisouza31/DiarioViagens/blob/main/Formulario.png"><br>
+   Fonte: Mariana Ocireu
+</div>
+
+<div align="center">
+  <h4>Memórias salvas:</h4>
+  <img width="500" src="https://github.com/marisouza31/DiarioViagens/blob/main/Formulario.png"><br>
    Fonte: Mariana Ocireu
 </div>
 
